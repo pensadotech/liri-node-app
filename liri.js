@@ -101,6 +101,12 @@ function spotifySong(searchTopic) {
   // access keys information
   var spotify = new Spotify(keys.spotify);
 
+  // * Artist(s)
+  // * The song's name
+  // * A preview link of the song from Spotify
+  // * The album that the song is from
+  
+  // ref Article: https://stackoverflow.com/questions/34909680/strange-response-from-spotify-api-using-node-js
   spotify
     .search({
       type: 'track',
@@ -108,25 +114,30 @@ function spotifySong(searchTopic) {
     })
     .then(function (response) {
 
-      // * Artist(s)
-      // * The song's name
-      // * A preview link of the song from Spotify
-      // * The album that the song is from
+      // console.log('tracks ....................................................');
+      // console.log(response.tracks);
+      
+      let songNum = 0;
 
-      console.log(response);
+      response.tracks.items.forEach(songInfo => {
 
-      // var tracks = response.tracks;
-      // console.log(tracks);
+        let artistLst = '';
+        for(let i = 0; i < songInfo.artists.length; i++ ) {
+          if (i === 0) {
+            artistLst = songInfo.artists[i].name;
+          } else {
+            artistLst = artistLst + ',' + songInfo.artists[i].name;
+          }    
+        }
 
-      // for (const key in tracks) {
-      //   if (tracks.hasOwnProperty(key)) {
-      //     const element = tracks[key];
-      //     console.log(element);
-      //     // console.log(element.artists);
-      //     // console.log(element.name);
-      //     // console.log(element.href);
-      //   }
-      // }
+        console.log('Song Info #' + songNum + '....................................');
+        console.log('Artist: ' + artistLst);
+        console.log('Name: ' + songInfo.name);
+        console.log('Preview url: ' + songInfo.preview_url);
+        console.log('Album: ' + songInfo.album.name);
+        console.log('Popularity: ' + songInfo.popularity);
+        songNum++;
+      });
 
     })
     .catch(function (err) {
@@ -205,7 +216,7 @@ function doWhatItSay() {
         } else {
           console.log('do-what-it-says is invalid, as it can cause an infinite loop.')
         }
-      } else  {
+      } else {
         console.log('Invalid file content!')
       }
     }
