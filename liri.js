@@ -12,7 +12,7 @@ const request = require('request');
 const moment = require('moment');
 const fs = require("fs");
 
-// Main logic ..............................................................
+// Process command using parameters .......................................
 if (process.argv.length < 3) {
   console.log("missing argument: command (e.g. node liri movie-this ....) ")
 } else {
@@ -27,6 +27,8 @@ if (process.argv.length < 3) {
   // Process commands
   takeAction(actionCmd, searchTopic);
 }
+
+
 
 // Functions ..............................................................
 function takeAction(actionCmd, searchTopic) {
@@ -72,27 +74,39 @@ function concertThis(searchTopic) {
     let url = 'https://rest.bandsintown.com/artists/';
     url += searchTopic;
     url += '/events?app_id=codingbootcamp';
-
+    // Request infromaiton
     request(url, function (err, response, body) {
       if (err) {
         console.log(err);
       } else {
         // prepare resonse
         let data = JSON.parse(body);
-        let eventNum = 0;
-        console.log("Band: " + searchTopic)
+        let venueNum = 0;
+        // target band
+        console.log("Band Requested: " + searchTopic);
+        writteToLogFile("Band Requested: " + searchTopic);
+        // Load each venue
         data.forEach(element => {
-          console.log('Event #' + eventNum + '------------------------');
-          console.log('Name of the venue: ' + element.venue.name);
-          console.log('Venue location: ' + element.venue.city + ', ' + element.venue.country);
-          console.log('Date of the Event: ' + moment(element.datetime).format("MM/DD/YYYY HH:MM"));
-          eventNum++;
+          // Display data
+          console.log('Venue# : ' + venueNum);
+          console.log('Name of the venue : ' + element.venue.name);
+          console.log('Venue location : ' + element.venue.city + ', ' + element.venue.country);
+          console.log('Date of the Event : ' + moment(element.datetime).format("MM/DD/YYYY HH:MM"));
+          console.log('-------------------------------------');
+          let venueData = `
+           Venue# : ${venueNum}
+           Name of the venue : ${element.venue.name}
+           Venue location : ${element.venue.city}, ${element.venue.country}
+           Date of the Event : ${moment(element.datetime).format("MM/DD/YYYY HH:MM")}
+           ---------------------------------------------
+           `
+          // write in log file
+          writteToLogFile(venueData);
+          venueNum++;
         });
       }
     })
   }
-
-
 }
 
 function spotifySong(searchTopic) {
@@ -105,7 +119,7 @@ function spotifySong(searchTopic) {
   // * The song's name
   // * A preview link of the song from Spotify
   // * The album that the song is from
-  
+
   // ref Article: https://stackoverflow.com/questions/34909680/strange-response-from-spotify-api-using-node-js
   spotify
     .search({
@@ -113,29 +127,41 @@ function spotifySong(searchTopic) {
       query: searchTopic
     })
     .then(function (response) {
-
-      // console.log('tracks ....................................................');
-      // console.log(response.tracks);
-      
+      // JSON-TO-STRING
+      // console.log(JSON.stringify(response));
       let songNum = 0;
-
+      // target song 
+      console.log("Song Requested: " + searchTopic);
+      writteToLogFile("Song Requested: " + searchTopic);
+      // get information from returned structure
       response.tracks.items.forEach(songInfo => {
-
+        // find artists list
         let artistLst = '';
-        for(let i = 0; i < songInfo.artists.length; i++ ) {
+        for (let i = 0; i < songInfo.artists.length; i++) {
           if (i === 0) {
             artistLst = songInfo.artists[i].name;
           } else {
             artistLst = artistLst + ',' + songInfo.artists[i].name;
-          }    
+          }
         }
-
-        console.log('Song Info #' + songNum + '....................................');
-        console.log('Artist: ' + artistLst);
-        console.log('Name: ' + songInfo.name);
-        console.log('Preview url: ' + songInfo.preview_url);
-        console.log('Album: ' + songInfo.album.name);
-        console.log('Popularity: ' + songInfo.popularity);
+        // Display data 
+        console.log('Song Info# : ' + songNum);
+        console.log('Artists : ' + artistLst);
+        console.log('Name : ' + songInfo.name);
+        console.log('Preview url : ' + songInfo.preview_url);
+        console.log('Album : ' + songInfo.album.name);
+        console.log('Popularity : ' + songInfo.popularity);
+        consloe.log('.................................................')
+        let songData = `
+        Song Info# : ${songNum}
+        Artists : ${artistLst}
+        Name : ${songInfo.name}
+        Preview url : ${songInfo.preview_url}
+        Album : ${songInfo.album.name}
+        Popularity : ${songInfo.popularity}
+        ------------------------------------------------
+        `
+        writteToLogFile(songData);
         songNum++;
       });
 
@@ -170,7 +196,7 @@ function movieThis(searchTopic) {
     if (err) {
       console.log(err);
     } else {
-      // prepare resonse
+      // string-to-JSON
       let data = JSON.parse(body);
       // console.log(data);
       if (data.Title === undefined) {
@@ -183,15 +209,31 @@ function movieThis(searchTopic) {
             rottenTommatoes = element.Value;
           }
         });
-        // display teh required info in console
-        console.log('Title: ' + data.Title);
-        console.log('Year: ' + data.Year);
-        console.log('imdbRating: ' + data.imdbRating);
-        console.log('Rotten Tomatoes: ' + rottenTommatoes);
-        console.log('Country: ' + data.Country);
-        console.log('Language: ' + data.Language);
-        console.log('Plot: ' + data.Plot);
-        console.log('Actors: ' + data.Actors);
+        // target song 
+        console.log("Movie Requested: " + searchTopic);
+        writteToLogFile("Movie Requested: " + searchTopic);
+        // display the required info in console
+        console.log('Title : ' + data.Title);
+        console.log('Year : ' + data.Year);
+        console.log('imdbRating : ' + data.imdbRating);
+        console.log('Rotten Tomatoes : ' + rottenTommatoes);
+        console.log('Country : ' + data.Country);
+        console.log('Language : ' + data.Language);
+        console.log('Plot : ' + data.Plot);
+        console.log('Actors : ' + data.Actors);
+        consloe.log('.................................................')
+        let movieData = `
+        Title : ${data.Title}
+        Year : ${data.Year}
+        imdbRating : ${data.imdbRating}
+        Rotten Tomatoes : ${rottenTommatoes} 
+        Country : ${data.Country}
+        Language : ${data.Language}
+        Plot : ${data.Plot}
+        Actors : ${data.Actors}
+        ------------------------------------------------
+        `
+        writteToLogFile(movieData);
       }
     }
   })
@@ -214,11 +256,18 @@ function doWhatItSay() {
         if (actionCmd !== 'do-what-it-says') {
           takeAction(actionCmd, searchTopic);
         } else {
-          console.log('do-what-it-says is invalid, as it can cause an infinite loop.')
+          console.log('do-what-it-says is an invalid entry, as it can cause an infinite loop.')
+          writteToLogFile('do-what-it-says is an invalid entry, as it can cause an infinite loop.');
         }
       } else {
-        console.log('Invalid file content!')
+        console.log('Invalid file content!');
+        writteToLogFile('Invalid file content!');
       }
     }
   })
+}
+
+function writteToLogFile(logActivity) {
+  // write/append file
+  fs.appendFile('file.txt', logActivity, e => e ? console.log(e) : console.log('Success!'))
 }
