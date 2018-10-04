@@ -16,21 +16,53 @@ const fs = require("fs");
 if (process.argv.length < 3) {
   console.log("missing argument: command (e.g. node liri movie-this ....) ")
 } else {
+  // Take command
   var actionCmd = process.argv[2];
   var searchTopic = '';
-  // concatenate all arguments to build search topic
+
+  // search-topic: concatenate all arguments after third possition
   if (process.argv.length >= 4) {
     searchTopic = process.argv.slice(3).join('+');
   }
-  console.log("actionCmd: " + actionCmd);
-  console.log("searchTopic: " + searchTopic);
-  // Process commands
+
+  // Log user selection
+  if (actionCmd !== 'do-what-it-says') {
+    logUserCommand(actionCmd, searchTopic);
+  }
+
+  // Process user command
   takeAction(actionCmd, searchTopic);
 }
 
-
-
 // Functions ..............................................................
+function logUserCommand(actionCmd, searchTopic) {
+  // considerations
+  if (searchTopic === '') {
+    searchTopic = '<empty>'
+  }
+  // display in console log
+  console.log("------------------------------");
+  console.log("Action-Command : " + actionCmd);
+  console.log('Search-Topic : ' + searchTopic);
+  console.log("------------------------------");
+  
+  // write in log file
+  let usrAction = `
+  Action-Command : ${actionCmd}
+  Search-Topic : ${searchTopic}
+  `
+  writteToLogFile(usrAction);
+}
+
+function writteToLogFile(logActivity) {
+  // write/append file
+  fs.appendFile('file.txt', logActivity, function (err) {
+    if (err) {
+      console.log(err)
+    }
+  })
+}
+
 function takeAction(actionCmd, searchTopic) {
   // Process commands
   switch (actionCmd) {
@@ -62,6 +94,7 @@ function takeAction(actionCmd, searchTopic) {
 
 function concertThis(searchTopic) {
 
+  // Target data:
   // * Name of the venue
   // * Venue location
   // * Date of the Event (use moment to format this as "MM/DD/YYYY")
@@ -73,48 +106,56 @@ function concertThis(searchTopic) {
     // example: "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp"
     let url = 'https://rest.bandsintown.com/artists/';
     url += searchTopic;
+    //url += 'Carrie+Underwood';
     url += '/events?app_id=codingbootcamp';
+
     // Request infromaiton
     request(url, function (err, response, body) {
       if (err) {
         console.log(err);
       } else {
-        // prepare resonse
-        let data = JSON.parse(body);
-        let venueNum = 0;
-        // target band
-        console.log("Band Requested: " + searchTopic);
-        writteToLogFile("Band Requested: " + searchTopic);
-        // Load each venue
-        data.forEach(element => {
-          // Display data
-          console.log('Venue# : ' + venueNum);
-          console.log('Name of the venue : ' + element.venue.name);
-          console.log('Venue location : ' + element.venue.city + ', ' + element.venue.country);
-          console.log('Date of the Event : ' + moment(element.datetime).format("MM/DD/YYYY HH:MM"));
-          console.log('-------------------------------------');
-          let venueData = `
-           Venue# : ${venueNum}
-           Name of the venue : ${element.venue.name}
-           Venue location : ${element.venue.city}, ${element.venue.country}
-           Date of the Event : ${moment(element.datetime).format("MM/DD/YYYY HH:MM")}
-           ---------------------------------------------
+        // act upon a proper response (if venues are found)
+        // if no venues found the response will be as : "{error=Not Found}\n"
+        if (JSON.stringify(body).toLowerCase().includes('not found')) {
+          console.log("Not found!");
+          writteToLogFile("Result: Not found!\n");
+        } else {
+          // convert response to JSON
+          let data = JSON.parse(body);
+          let venueNum = 0;
+          // Load each venue
+          data.forEach(element => {
+            // Display data
+            console.log('Venue# : ' + venueNum);
+            console.log('Name of the venue : ' + element.venue.name);
+            console.log('Venue location : ' + element.venue.city + ', ' + element.venue.country);
+            console.log('Date of the Event : ' + moment(element.datetime).format("MM/DD/YYYY HH:MM"));
+            console.log('-------------------------------------');
+            let venueData = `
+            Venue# : ${venueNum}
+            Name of the venue : ${element.venue.name}
+            Venue location : ${element.venue.city}, ${element.venue.country}
+            Date of the Event : ${moment(element.datetime).format("MM/DD/YYYY HH:MM")}
+            ---------------------------------------------
            `
-          // write in log file
-          writteToLogFile(venueData);
-          venueNum++;
-        });
+            // write in log file
+            writteToLogFile(venueData);
+            venueNum++;
+          });
+        }
       }
     })
   }
 }
 
 function spotifySong(searchTopic) {
+
   // Default search topic, if nothing was provided
   if (searchTopic === '') searchTopic = 'The Sign';
   // access keys information
   var spotify = new Spotify(keys.spotify);
 
+  // Target data:
   // * Artist(s)
   // * The song's name
   // * A preview link of the song from Spotify
@@ -127,55 +168,57 @@ function spotifySong(searchTopic) {
       query: searchTopic
     })
     .then(function (response) {
-      // JSON-TO-STRING
-      // console.log(JSON.stringify(response));
       let songNum = 0;
-      // target song 
-      console.log("Song Requested: " + searchTopic);
-      writteToLogFile("Song Requested: " + searchTopic);
-      // get information from returned structure
-      response.tracks.items.forEach(songInfo => {
-        // find artists list
-        let artistLst = '';
-        for (let i = 0; i < songInfo.artists.length; i++) {
-          if (i === 0) {
-            artistLst = songInfo.artists[i].name;
-          } else {
-            artistLst = artistLst + ',' + songInfo.artists[i].name;
+      // act upon a proper response (if venues are found)
+      // if no songs found the response array will be zero"
+      if (response.tracks.items.length === undefined || response.tracks.items.length === 0) {
+        console.log("Not found!");
+        writteToLogFile("Result: Not found!\n");
+      } else {
+        // get information from returned structure
+        response.tracks.items.forEach(songInfo => {
+          // find artists list
+          let artistLst = '';
+          for (let i = 0; i < songInfo.artists.length; i++) {
+            if (i === 0) {
+              artistLst = songInfo.artists[i].name;
+            } else {
+              artistLst = artistLst + ',' + songInfo.artists[i].name;
+            }
           }
-        }
-        // Display data 
-        console.log('Song Info# : ' + songNum);
-        console.log('Artists : ' + artistLst);
-        console.log('Name : ' + songInfo.name);
-        console.log('Preview url : ' + songInfo.preview_url);
-        console.log('Album : ' + songInfo.album.name);
-        console.log('Popularity : ' + songInfo.popularity);
-        consloe.log('.................................................')
-        let songData = `
-        Song Info# : ${songNum}
-        Artists : ${artistLst}
-        Name : ${songInfo.name}
-        Preview url : ${songInfo.preview_url}
-        Album : ${songInfo.album.name}
-        Popularity : ${songInfo.popularity}
-        ------------------------------------------------
-        `
-        writteToLogFile(songData);
-        songNum++;
-      });
-
+          // Display data 
+          console.log('Song Info# : ' + songNum);
+          console.log('Artists : ' + artistLst);
+          console.log('Name : ' + songInfo.name);
+          console.log('Preview url : ' + songInfo.preview_url);
+          console.log('Album : ' + songInfo.album.name);
+          console.log('Popularity : ' + songInfo.popularity);
+          console.log('-------------------------------------')
+          let songData = `
+          Song Info# : ${songNum}
+          Artists : ${artistLst}
+          Name : ${songInfo.name}
+          Preview url : ${songInfo.preview_url}
+          Album : ${songInfo.album.name}
+          Popularity : ${songInfo.popularity}
+          -------------------------------------
+          `
+          writteToLogFile(songData);
+          songNum++;
+        });
+      }
     })
     .catch(function (err) {
       console.log(err);
     });
-
 }
 
 function movieThis(searchTopic) {
+
   // Default search topic, if nothing was provided
   if (searchTopic === '') searchTopic = 'Mr. Nobody';
 
+  // Target data:
   // * Title of the movie.
   // * Year the movie came out.
   // * IMDB Rating of the movie.
@@ -209,9 +252,6 @@ function movieThis(searchTopic) {
             rottenTommatoes = element.Value;
           }
         });
-        // target song 
-        console.log("Movie Requested: " + searchTopic);
-        writteToLogFile("Movie Requested: " + searchTopic);
         // display the required info in console
         console.log('Title : ' + data.Title);
         console.log('Year : ' + data.Year);
@@ -221,7 +261,7 @@ function movieThis(searchTopic) {
         console.log('Language : ' + data.Language);
         console.log('Plot : ' + data.Plot);
         console.log('Actors : ' + data.Actors);
-        consloe.log('.................................................')
+        console.log('-------------------------------------')
         let movieData = `
         Title : ${data.Title}
         Year : ${data.Year}
@@ -231,7 +271,7 @@ function movieThis(searchTopic) {
         Language : ${data.Language}
         Plot : ${data.Plot}
         Actors : ${data.Actors}
-        ------------------------------------------------
+        -------------------------------------
         `
         writteToLogFile(movieData);
       }
@@ -245,29 +285,26 @@ function doWhatItSay() {
     if (err) {
       return console.log(err)
     } else {
+      // split entries in file contente
       let dataArr = data.split(",");
-      if (dataArr.legth === 2) {
+      // act if entries are two: action-Command, and Search-topic
+      if (dataArr.length === 2) {
         // First element is the command
         let actionCmd = dataArr[0];
         // search topic
         let searchTopic = dataArr[1].replace(/"/g, '');
-        searchTopic = searchTopic.slice(0).join('+');
         // Process commands
         if (actionCmd !== 'do-what-it-says') {
+          logUserCommand('From-File[' + actionCmd + ']', 'From-File[' + searchTopic + ']');
           takeAction(actionCmd, searchTopic);
         } else {
           console.log('do-what-it-says is an invalid entry, as it can cause an infinite loop.')
-          writteToLogFile('do-what-it-says is an invalid entry, as it can cause an infinite loop.');
+          writteToLogFile('do-what-it-says is an invalid entry, as it can cause an infinite loop.' + '\n');
         }
       } else {
         console.log('Invalid file content!');
-        writteToLogFile('Invalid file content!');
+        writteToLogFile('Invalid file content!' + '\n');
       }
     }
   })
-}
-
-function writteToLogFile(logActivity) {
-  // write/append file
-  fs.appendFile('file.txt', logActivity, e => e ? console.log(e) : console.log('Success!'))
 }
