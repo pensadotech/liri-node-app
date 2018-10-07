@@ -720,3 +720,385 @@
           Popularity : 38
           -------------------------------------
           
+  Action-Command : concert-this
+  Search-Topic : Carrie Underwood
+  
+            Venue# : 2
+            Name of the venue : CMT Artists of the Year
+            Venue location : Nashville, United States
+            Date of the Event : 10/17/2018 20:10
+            ---------------------------------------------
+           
+            Venue# : 0
+            Name of the venue : American Music Awards 
+            Venue location : Los Angeles, United States
+            Date of the Event : 10/09/2018 19:10
+            ---------------------------------------------
+           
+            Venue# : 3
+            Name of the venue : Grand Ole Opry - Opry Goes Pink
+            Venue location : Nashville, United States
+            Date of the Event : 10/26/2018 19:10
+            ---------------------------------------------
+           
+            Venue# : 4
+            Name of the venue : Grand Ole Opry - Opry Goes Pink 
+            Venue location : Nashville, United States
+            Date of the Event : 10/26/2018 21:10
+            ---------------------------------------------
+           
+            Venue# : 1
+            Name of the venue : Jimmy Kimmel Live! - Watch on ABC
+            Venue location : Los Angeles, United States
+            Date of the Event : 10/09/2018 23:10
+            ---------------------------------------------
+           
+            Venue# : 6
+            Name of the venue : Greensboro Coliseum Complex
+            Venue location : Greensboro, United States
+            Date of the Event : 05/01/2019 19:05
+            ---------------------------------------------
+           
+            Venue# : 7
+            Name of the venue : Legacy Arena at The BJCC
+            Venue location : Birmingham, United States
+            Date of the Event : 05/03/2019 19:05
+            ---------------------------------------------
+           
+            Venue# : 8
+            Name of the venue : Verizon Arena
+            Venue location : North Little Rock, United States
+            Date of the Event : 05/04/2019 19:05
+            ---------------------------------------------
+           
+            Venue# : 5
+            Name of the venue : CMA Awards - Hosting 
+            Venue location : Nashville, United States
+            Date of the Event : 11/14/2018 19:11
+            ---------------------------------------------
+           
+            Venue# : 9
+            Name of the venue : AT&T Center
+            Venue location : San Antonio, United States
+            Date of the Event : 05/06/2019 19:05
+            ---------------------------------------------
+           
+            Venue# : 10
+            Name of the venue : Talking Stick Resort Arena
+            Venue location : Phoenix, United States
+            Date of the Event : 05/09/2019 19:05
+            ---------------------------------------------
+           
+            Venue# : 11
+            Name of the venue : MGM Grand Garden Arena
+            Venue location : Las Vegas, United States
+            Date of the Event : 05/11/2019 00:05
+            ---------------------------------------------
+           
+            Venue# : 12
+            Name of the venue : Save Mart Center
+            Venue location : Fresno, United States
+            Date of the Event : 05/12/2019 19:05
+            ---------------------------------------------
+           
+            Venue# : 13
+            Name of the venue : Golden1 Center
+            Venue location : Sacramento, United States
+            Date of the Event : 05/14/2019 19:05
+            ---------------------------------------------
+           
+            Venue# : 14
+            Name of the venue : Oracle Arena
+            Venue location : Oakland, United States
+            Date of the Event : 05/16/2019 19:05
+            ---------------------------------------------
+           
+            Venue# : 15
+            Name of the venue : Rabobank Arena, Theater and Convention Center
+            Venue location : Bakersfield, United States
+            Date of the Event : 05/18/2019 19:05
+            ---------------------------------------------
+           
+            Venue# : 17
+            Name of the venue : Spokane Arena
+            Venue location : Spokane, United States
+            Date of the Event : 05/22/2019 20:05
+            ---------------------------------------------
+           
+            Venue# : 16
+            Name of the venue : Moda Center
+            Venue location : Portland, United States
+            Date of the Event : 05/21/2019 19:05
+            ---------------------------------------------
+           
+            Venue# : 18
+            Name of the venue : Tacoma Dome
+            Venue location : Tacoma, United States
+            Date of the Event : 05/24/2019 19:05
+            ---------------------------------------------
+           
+            Venue# : 19
+            Name of the venue : Rogers Arena
+            Venue location : Vancouver, Canada
+            Date of the Event : 05/25/2019 19:05
+            ---------------------------------------------
+           
+            Venue# : 20
+            Name of the venue : Rogers Place
+            Venue location : Edmonton, Canada
+            Date of the Event : 05/28/2019 19:05
+            ---------------------------------------------
+           
+            Venue# : 22
+            Name of the venue : Bell MTS Place
+            Venue location : Winnipeg, Canada
+            Date of the Event : 06/02/2019 19:06
+            ---------------------------------------------
+           
+            Venue# : 21
+            Name of the venue : Sasktel Centre
+            Venue location : Saskatoon, Canada
+            Date of the Event : 05/31/2019 19:05
+            ---------------------------------------------
+           
+            Venue# : 23
+            Name of the venue : Scotiabank Arena
+            Venue location : Toronto, Canada
+            Date of the Event : 06/09/2019 19:06
+            ---------------------------------------------
+           
+            Venue# : 24
+            Name of the venue : Canadian Tire Centre
+            Venue location : Ottawa, Canada
+            Date of the Event : 06/10/2019 19:06
+            ---------------------------------------------
+           
+            Venue# : 25
+            Name of the venue : Giant Center
+            Venue location : Hershey, United States
+            Date of the Event : 06/13/2019 19:06
+            ---------------------------------------------
+           
+            Venue# : 26
+            Name of the venue : U.S. Bank Arena
+            Venue location : Cincinnati, United States
+            Date of the Event : 06/15/2019 19:06
+            ---------------------------------------------
+           
+            Venue# : 28
+            Name of the venue : Enterprise Center
+            Venue location : Saint Louis, United States
+            Date of the Event : 06/18/2019 19:06
+            ---------------------------------------------
+           
+            Venue# : 27
+            Name of the venue : Bankers Life Fieldhouse
+            Venue location : Indianapolis, United States
+            Date of the Event : 06/16/2019 19:06
+            ---------------------------------------------
+           
+            Venue# : 29
+            Name of the venue : Fiserv Forum
+            Venue location : Milwaukee, United States
+            Date of the Event : 06/20/2019 19:06
+            ---------------------------------------------
+           
+            Venue# : 31
+            Name of the venue : Pinnacle Bank Arena
+            Venue location : Lincoln, United States
+            Date of the Event : 06/23/2019 19:06
+            ---------------------------------------------
+           
+            Venue# : 30
+            Name of the venue : Target Center
+            Venue location : Minneapolis, United States
+            Date of the Event : 06/21/2019 19:06
+            ---------------------------------------------
+           
+            Venue# : 32
+            Name of the venue : Valley View Casino Center
+            Venue location : San Diego, United States
+            Date of the Event : 09/10/2019 19:09
+            ---------------------------------------------
+           
+            Venue# : 34
+            Name of the venue : Vivint Smart Home Arena
+            Venue location : Salt Lake City, United States
+            Date of the Event : 09/14/2019 19:09
+            ---------------------------------------------
+           
+            Venue# : 33
+            Name of the venue : Staples Center
+            Venue location : Los Angeles, United States
+            Date of the Event : 09/12/2019 19:09
+            ---------------------------------------------
+           
+            Venue# : 36
+            Name of the venue : Intrust Bank Arena
+            Venue location : Wichita, United States
+            Date of the Event : 09/18/2019 20:09
+            ---------------------------------------------
+           
+            Venue# : 35
+            Name of the venue : Pepsi Center
+            Venue location : Denver, United States
+            Date of the Event : 09/16/2019 20:09
+            ---------------------------------------------
+           
+            Venue# : 38
+            Name of the venue : Toyota Center
+            Venue location : Houston, United States
+            Date of the Event : 09/21/2019 20:09
+            ---------------------------------------------
+           
+            Venue# : 37
+            Name of the venue : Sprint Center
+            Venue location : Kansas City, United States
+            Date of the Event : 09/19/2019 19:09
+            ---------------------------------------------
+           
+            Venue# : 39
+            Name of the venue : CAJUNDOME
+            Venue location : Lafayette, United States
+            Date of the Event : 09/22/2019 19:09
+            ---------------------------------------------
+           
+            Venue# : 40
+            Name of the venue : American Airlines Center
+            Venue location : Dallas, United States
+            Date of the Event : 09/24/2019 19:09
+            ---------------------------------------------
+           
+            Venue# : 41
+            Name of the venue : Chesapeake Energy Arena
+            Venue location : Oklahoma City, United States
+            Date of the Event : 09/25/2019 19:09
+            ---------------------------------------------
+           
+            Venue# : 42
+            Name of the venue : Bridgestone Arena
+            Venue location : Nashville, United States
+            Date of the Event : 09/27/2019 19:09
+            ---------------------------------------------
+           
+            Venue# : 43
+            Name of the venue : Colonial Life Arena
+            Venue location : Columbia, United States
+            Date of the Event : 09/29/2019 19:09
+            ---------------------------------------------
+           
+            Venue# : 45
+            Name of the venue : Madison Square Garden
+            Venue location : Button City, United States
+            Date of the Event : 10/02/2019 19:10
+            ---------------------------------------------
+           
+            Venue# : 44
+            Name of the venue : PNC Arena
+            Venue location : Raleigh, United States
+            Date of the Event : 09/30/2019 19:09
+            ---------------------------------------------
+           
+            Venue# : 46
+            Name of the venue : Capital One Arena
+            Venue location : Washington, United States
+            Date of the Event : 10/04/2019 19:10
+            ---------------------------------------------
+           
+            Venue# : 47
+            Name of the venue : Wells Fargo Center
+            Venue location : Philadelphia, United States
+            Date of the Event : 10/05/2019 20:10
+            ---------------------------------------------
+           
+            Venue# : 48
+            Name of the venue : TD Garden
+            Venue location : Boston, United States
+            Date of the Event : 10/10/2019 19:10
+            ---------------------------------------------
+           
+            Venue# : 49
+            Name of the venue : PPG Paints Arena
+            Venue location : Pittsburgh, United States
+            Date of the Event : 10/12/2019 19:10
+            ---------------------------------------------
+           
+            Venue# : 50
+            Name of the venue : KeyBank Center
+            Venue location : Buffalo, United States
+            Date of the Event : 10/13/2019 20:10
+            ---------------------------------------------
+           
+            Venue# : 52
+            Name of the venue : KFC Yum! Center
+            Venue location : Louisville, United States
+            Date of the Event : 10/17/2019 19:10
+            ---------------------------------------------
+           
+            Venue# : 51
+            Name of the venue : Quicken Loans Arena
+            Venue location : Cleveland, United States
+            Date of the Event : 10/16/2019 20:10
+            ---------------------------------------------
+           
+            Venue# : 54
+            Name of the venue : Jacksonville Veterans Memorial Arena
+            Venue location : Jacksonville, United States
+            Date of the Event : 10/20/2019 19:10
+            ---------------------------------------------
+           
+            Venue# : 55
+            Name of the venue : FedExForum
+            Venue location : Memphis, United States
+            Date of the Event : 10/23/2019 19:10
+            ---------------------------------------------
+           
+            Venue# : 53
+            Name of the venue : Philips Arena
+            Venue location : Atlanta, United States
+            Date of the Event : 10/19/2019 19:10
+            ---------------------------------------------
+           
+            Venue# : 56
+            Name of the venue : BOK Center
+            Venue location : Tulsa, United States
+            Date of the Event : 10/24/2019 19:10
+            ---------------------------------------------
+           
+            Venue# : 58
+            Name of the venue : Denny Sanford Premier Center
+            Venue location : Sioux Falls, United States
+            Date of the Event : 10/27/2019 20:10
+            ---------------------------------------------
+           
+            Venue# : 57
+            Name of the venue : Wells Fargo Arena
+            Venue location : Des Moines, United States
+            Date of the Event : 10/26/2019 20:10
+            ---------------------------------------------
+           
+            Venue# : 59
+            Name of the venue : United Center
+            Venue location : Chicago, United States
+            Date of the Event : 10/29/2019 19:10
+            ---------------------------------------------
+           
+            Venue# : 60
+            Name of the venue : Little Caesars Arena
+            Venue location : Detroit, United States
+            Date of the Event : 10/31/2019 19:10
+            ---------------------------------------------
+           
+  Action-Command : From-File[movie-this]
+  Search-Topic : From-File[ 'Man of Steel']
+  
+        Title : Man of Steel
+        Year : 2013
+        imdbRating : 7.1
+        Rotten Tomatoes : 55% 
+        Country : USA, UK
+        Language : English
+        Plot : Clark Kent, one of the last of an extinguished race disguised as an unremarkable human, is forced to reveal his identity when Earth is invaded by an army of survivors who threaten to bring the planet to the brink of destruction.
+        Actors : Henry Cavill, Amy Adams, Michael Shannon, Diane Lane
+        -------------------------------------
+        

@@ -67,7 +67,7 @@ function takeAction(actionCmd, searchTopic) {
   // Process commands
   switch (actionCmd) {
     case 'concert-this':
-      // node liri.js concert-this <artist/band name here>
+      // node liri.js concert-this '<artist/band name here>'
       // execute command
       concertThis(searchTopic);
       break;
