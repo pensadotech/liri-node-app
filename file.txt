@@ -2,6 +2,12 @@
   Action-Command : concert-this
   Search-Topic : Carrie Underwood
   
+            Venue# : 2
+            Name of the venue : CMT Artists of the Year
+            Venue location : Nashville, United States
+            Date of the Event : 10/17/2018 20:10
+            ---------------------------------------------
+           
             Venue# : 0
             Name of the venue : American Music Awards 
             Venue location : Los Angeles, United States
@@ -20,28 +26,22 @@
             Date of the Event : 10/26/2018 19:10
             ---------------------------------------------
            
-            Venue# : 2
-            Name of the venue : CMT Artists of the Year
-            Venue location : Nashville, United States
-            Date of the Event : 10/17/2018 20:10
-            ---------------------------------------------
-           
             Venue# : 4
             Name of the venue : Grand Ole Opry - Opry Goes Pink 
             Venue location : Nashville, United States
             Date of the Event : 10/26/2018 21:10
             ---------------------------------------------
            
-            Venue# : 5
-            Name of the venue : CMA Awards - Hosting 
-            Venue location : Nashville, United States
-            Date of the Event : 11/14/2018 19:11
-            ---------------------------------------------
-           
             Venue# : 6
             Name of the venue : Greensboro Coliseum Complex
             Venue location : Greensboro, United States
             Date of the Event : 05/01/2019 19:05
+            ---------------------------------------------
+           
+            Venue# : 5
+            Name of the venue : CMA Awards - Hosting 
+            Venue location : Nashville, United States
+            Date of the Event : 11/14/2018 19:11
             ---------------------------------------------
            
             Venue# : 7
@@ -56,16 +56,16 @@
             Date of the Event : 05/04/2019 19:05
             ---------------------------------------------
            
-            Venue# : 9
-            Name of the venue : AT&T Center
-            Venue location : San Antonio, United States
-            Date of the Event : 05/06/2019 19:05
-            ---------------------------------------------
-           
             Venue# : 10
             Name of the venue : Talking Stick Resort Arena
             Venue location : Phoenix, United States
             Date of the Event : 05/09/2019 19:05
+            ---------------------------------------------
+           
+            Venue# : 9
+            Name of the venue : AT&T Center
+            Venue location : San Antonio, United States
+            Date of the Event : 05/06/2019 19:05
             ---------------------------------------------
            
             Venue# : 11
@@ -98,10 +98,10 @@
             Date of the Event : 05/18/2019 19:05
             ---------------------------------------------
            
-            Venue# : 17
-            Name of the venue : Spokane Arena
-            Venue location : Spokane, United States
-            Date of the Event : 05/22/2019 20:05
+            Venue# : 18
+            Name of the venue : Tacoma Dome
+            Venue location : Tacoma, United States
+            Date of the Event : 05/24/2019 19:05
             ---------------------------------------------
            
             Venue# : 19
@@ -110,16 +110,22 @@
             Date of the Event : 05/25/2019 19:05
             ---------------------------------------------
            
+            Venue# : 17
+            Name of the venue : Spokane Arena
+            Venue location : Spokane, United States
+            Date of the Event : 05/22/2019 20:05
+            ---------------------------------------------
+           
+            Venue# : 20
+            Name of the venue : Rogers Place
+            Venue location : Edmonton, Canada
+            Date of the Event : 05/28/2019 19:05
+            ---------------------------------------------
+           
             Venue# : 16
             Name of the venue : Moda Center
             Venue location : Portland, United States
             Date of the Event : 05/21/2019 19:05
-            ---------------------------------------------
-           
-            Venue# : 18
-            Name of the venue : Tacoma Dome
-            Venue location : Tacoma, United States
-            Date of the Event : 05/24/2019 19:05
             ---------------------------------------------
            
             Venue# : 21
@@ -140,22 +146,10 @@
             Date of the Event : 06/10/2019 19:06
             ---------------------------------------------
            
-            Venue# : 22
-            Name of the venue : Bell MTS Place
-            Venue location : Winnipeg, Canada
-            Date of the Event : 06/02/2019 19:06
-            ---------------------------------------------
-           
             Venue# : 25
             Name of the venue : Giant Center
             Venue location : Hershey, United States
             Date of the Event : 06/13/2019 19:06
-            ---------------------------------------------
-           
-            Venue# : 20
-            Name of the venue : Rogers Place
-            Venue location : Edmonton, Canada
-            Date of the Event : 05/28/2019 19:05
             ---------------------------------------------
            
             Venue# : 26
@@ -170,6 +164,12 @@
             Date of the Event : 06/16/2019 19:06
             ---------------------------------------------
            
+            Venue# : 22
+            Name of the venue : Bell MTS Place
+            Venue location : Winnipeg, Canada
+            Date of the Event : 06/02/2019 19:06
+            ---------------------------------------------
+           
             Venue# : 28
             Name of the venue : Enterprise Center
             Venue location : Saint Louis, United States
@@ -182,16 +182,16 @@
             Date of the Event : 06/21/2019 19:06
             ---------------------------------------------
            
-            Venue# : 29
-            Name of the venue : Fiserv Forum
-            Venue location : Milwaukee, United States
-            Date of the Event : 06/20/2019 19:06
-            ---------------------------------------------
-           
             Venue# : 31
             Name of the venue : Pinnacle Bank Arena
             Venue location : Lincoln, United States
             Date of the Event : 06/23/2019 19:06
+            ---------------------------------------------
+           
+            Venue# : 29
+            Name of the venue : Fiserv Forum
+            Venue location : Milwaukee, United States
+            Date of the Event : 06/20/2019 19:06
             ---------------------------------------------
            
             Venue# : 32
@@ -206,22 +206,16 @@
             Date of the Event : 09/12/2019 19:09
             ---------------------------------------------
            
-            Venue# : 35
-            Name of the venue : Pepsi Center
-            Venue location : Denver, United States
-            Date of the Event : 09/16/2019 20:09
-            ---------------------------------------------
-           
             Venue# : 34
             Name of the venue : Vivint Smart Home Arena
             Venue location : Salt Lake City, United States
             Date of the Event : 09/14/2019 19:09
             ---------------------------------------------
            
-            Venue# : 37
-            Name of the venue : Sprint Center
-            Venue location : Kansas City, United States
-            Date of the Event : 09/19/2019 19:09
+            Venue# : 35
+            Name of the venue : Pepsi Center
+            Venue location : Denver, United States
+            Date of the Event : 09/16/2019 20:09
             ---------------------------------------------
            
             Venue# : 36
@@ -230,16 +224,22 @@
             Date of the Event : 09/18/2019 20:09
             ---------------------------------------------
            
-            Venue# : 38
-            Name of the venue : Toyota Center
-            Venue location : Houston, United States
-            Date of the Event : 09/21/2019 20:09
+            Venue# : 37
+            Name of the venue : Sprint Center
+            Venue location : Kansas City, United States
+            Date of the Event : 09/19/2019 19:09
             ---------------------------------------------
            
             Venue# : 39
             Name of the venue : CAJUNDOME
             Venue location : Lafayette, United States
             Date of the Event : 09/22/2019 19:09
+            ---------------------------------------------
+           
+            Venue# : 38
+            Name of the venue : Toyota Center
+            Venue location : Houston, United States
+            Date of the Event : 09/21/2019 20:09
             ---------------------------------------------
            
             Venue# : 40
@@ -260,22 +260,16 @@
             Date of the Event : 09/30/2019 19:09
             ---------------------------------------------
            
-            Venue# : 43
-            Name of the venue : Colonial Life Arena
-            Venue location : Columbia, United States
-            Date of the Event : 09/29/2019 19:09
-            ---------------------------------------------
-           
             Venue# : 42
             Name of the venue : Bridgestone Arena
             Venue location : Nashville, United States
             Date of the Event : 09/27/2019 19:09
             ---------------------------------------------
            
-            Venue# : 46
-            Name of the venue : Capital One Arena
-            Venue location : Washington, United States
-            Date of the Event : 10/04/2019 19:10
+            Venue# : 43
+            Name of the venue : Colonial Life Arena
+            Venue location : Columbia, United States
+            Date of the Event : 09/29/2019 19:09
             ---------------------------------------------
            
             Venue# : 45
@@ -290,6 +284,12 @@
             Date of the Event : 10/05/2019 20:10
             ---------------------------------------------
            
+            Venue# : 46
+            Name of the venue : Capital One Arena
+            Venue location : Washington, United States
+            Date of the Event : 10/04/2019 19:10
+            ---------------------------------------------
+           
             Venue# : 48
             Name of the venue : TD Garden
             Venue location : Boston, United States
@@ -302,28 +302,28 @@
             Date of the Event : 10/12/2019 19:10
             ---------------------------------------------
            
-            Venue# : 51
-            Name of the venue : Quicken Loans Arena
-            Venue location : Cleveland, United States
-            Date of the Event : 10/16/2019 20:10
-            ---------------------------------------------
-           
             Venue# : 50
             Name of the venue : KeyBank Center
             Venue location : Buffalo, United States
             Date of the Event : 10/13/2019 20:10
             ---------------------------------------------
            
-            Venue# : 52
-            Name of the venue : KFC Yum! Center
-            Venue location : Louisville, United States
-            Date of the Event : 10/17/2019 19:10
+            Venue# : 51
+            Name of the venue : Quicken Loans Arena
+            Venue location : Cleveland, United States
+            Date of the Event : 10/16/2019 20:10
             ---------------------------------------------
            
             Venue# : 53
             Name of the venue : Philips Arena
             Venue location : Atlanta, United States
             Date of the Event : 10/19/2019 19:10
+            ---------------------------------------------
+           
+            Venue# : 52
+            Name of the venue : KFC Yum! Center
+            Venue location : Louisville, United States
+            Date of the Event : 10/17/2019 19:10
             ---------------------------------------------
            
             Venue# : 54
@@ -344,22 +344,16 @@
             Date of the Event : 10/26/2019 20:10
             ---------------------------------------------
            
-            Venue# : 56
-            Name of the venue : BOK Center
-            Venue location : Tulsa, United States
-            Date of the Event : 10/24/2019 19:10
-            ---------------------------------------------
-           
             Venue# : 58
             Name of the venue : Denny Sanford Premier Center
             Venue location : Sioux Falls, United States
             Date of the Event : 10/27/2019 20:10
             ---------------------------------------------
            
-            Venue# : 60
-            Name of the venue : Little Caesars Arena
-            Venue location : Detroit, United States
-            Date of the Event : 10/31/2019 19:10
+            Venue# : 56
+            Name of the venue : BOK Center
+            Venue location : Tulsa, United States
+            Date of the Event : 10/24/2019 19:10
             ---------------------------------------------
            
             Venue# : 59
@@ -368,214 +362,191 @@
             Date of the Event : 10/29/2019 19:10
             ---------------------------------------------
            
+            Venue# : 60
+            Name of the venue : Little Caesars Arena
+            Venue location : Detroit, United States
+            Date of the Event : 10/31/2019 19:10
+            ---------------------------------------------
+           
   Action-Command : spotify-this-song
-  Search-Topic : If I Die Young
+  Search-Topic : Incomplete
   
           Song Info# : 1
-          Artists : Glee Cast
-          Name : If I Die Young (Glee Cast Version)
-          Preview url : https://p.scdn.co/mp3-preview/6c76b6326ddab3aab5e99894cff593f05c397e3e?cid=27a85697470544469f02f1a439d23e78
-          Album : The Quarterback
-          Popularity : 58
-          -------------------------------------
-          
-          Song Info# : 2
-          Artists : Dete P
-          Name : If I Die Young
-          Preview url : https://p.scdn.co/mp3-preview/6ecfce0433e3b6e70db06bf753bc67b0a2375c29?cid=27a85697470544469f02f1a439d23e78
-          Album : Young Soldier World
-          Popularity : 35
+          Artists : Sampha
+          Name : Incomplete Kisses
+          Preview url : https://p.scdn.co/mp3-preview/5269f5f2afe15eb9f0d0d8fc9757575fad7529db?cid=27a85697470544469f02f1a439d23e78
+          Album : Process
+          Popularity : 61
           -------------------------------------
           
           Song Info# : 0
-          Artists : The Band Perry
-          Name : If I Die Young
+          Artists : James Bay
+          Name : Incomplete
           Preview url : null
-          Album : The Band Perry
-          Popularity : 66
+          Album : Chaos And The Calm
+          Popularity : 56
+          -------------------------------------
+          
+          Song Info# : 2
+          Artists : Sisqo
+          Name : Incomplete
+          Preview url : null
+          Album : Unleash The Dragon
+          Popularity : 59
           -------------------------------------
           
           Song Info# : 3
-          Artists : Michael Henry & Justin Robinett
-          Name : If I Die Young
-          Preview url : https://p.scdn.co/mp3-preview/945b61d6da80e67fd12d9a2e53f1adb7ed854702?cid=27a85697470544469f02f1a439d23e78
-          Album : Harmonic Hyperbole
-          Popularity : 43
+          Artists : Backstreet Boys
+          Name : Incomplete
+          Preview url : https://p.scdn.co/mp3-preview/d54a622ec8a3bce1ef010f3106271a14563d8494?cid=27a85697470544469f02f1a439d23e78
+          Album : Never Gone
+          Popularity : 62
           -------------------------------------
           
           Song Info# : 4
-          Artists : Guitar Brothers
-          Name : If I Die Young
-          Preview url : https://p.scdn.co/mp3-preview/7998a5d2d4f3004265893b5fe753ae544e6b1e8e?cid=27a85697470544469f02f1a439d23e78
-          Album : Instrumental Guitar: If I Die Young
-          Popularity : 37
-          -------------------------------------
-          
-          Song Info# : 5
-          Artists : Julia Sheer
-          Name : If I Die Young
-          Preview url : https://p.scdn.co/mp3-preview/aeaee9b1cdef8cb731bcecf0259f285d720433eb?cid=27a85697470544469f02f1a439d23e78
-          Album : The One That Got Away & If I Die Young
-          Popularity : 46
+          Artists : Future Generations
+          Name : Incomplete
+          Preview url : https://p.scdn.co/mp3-preview/8262e1080dc1ff8682c77dfd3c43556446470a54?cid=27a85697470544469f02f1a439d23e78
+          Album : Landscape
+          Popularity : 50
           -------------------------------------
           
           Song Info# : 6
-          Artists : Samantha Barks
-          Name : If I Die Young
-          Preview url : https://p.scdn.co/mp3-preview/67084249504be8e33504e975ffce8e87722cb567?cid=27a85697470544469f02f1a439d23e78
-          Album : Samantha Barks
-          Popularity : 35
-          -------------------------------------
-          
-          Song Info# : 8
-          Artists : Jennifer Ewbank
-          Name : If I Die Young
-          Preview url : https://p.scdn.co/mp3-preview/1f8e492028d2407e03a6c3e669ecea96943375cf?cid=27a85697470544469f02f1a439d23e78
-          Album : If I Die Young
-          Popularity : 36
+          Artists : James Bay
+          Name : Incomplete
+          Preview url : null
+          Album : Chaos And The Calm (Deluxe Edition)
+          Popularity : 45
           -------------------------------------
           
           Song Info# : 7
-          Artists : Lauren Alaina
-          Name : If I Die Young - American Idol Performance
+          Artists : The Avett Brothers
+          Name : Incomplete And Insecure
           Preview url : null
-          Album : Lauren Alaina – American Idol Season 10
-          Popularity : 30
+          Album : I And Love And You
+          Popularity : 39
+          -------------------------------------
+          
+          Song Info# : 8
+          Artists : Khel Pangilinan
+          Name : Incomplete
+          Preview url : https://p.scdn.co/mp3-preview/d6defc43c58f32b54c39667459bea1262ca0b8b7?cid=27a85697470544469f02f1a439d23e78
+          Album : Khel Pangilinan Covers S1
+          Popularity : 54
           -------------------------------------
           
           Song Info# : 9
-          Artists : Fred Perry
-          Name : If I Die Young - Dubstep Remix
-          Preview url : https://p.scdn.co/mp3-preview/28e97b99a383a04e8966e33db55e0439462f6f9b?cid=27a85697470544469f02f1a439d23e78
-          Album : Mixtape Volume 5
-          Popularity : 37
-          -------------------------------------
-          
-          Song Info# : 10
-          Artists : Sam Tsui
-          Name : If I Die Young
-          Preview url : https://p.scdn.co/mp3-preview/25c046aebac5a25765f7385235efe8c3f8c00644?cid=27a85697470544469f02f1a439d23e78
-          Album : If I Die Young
-          Popularity : 35
-          -------------------------------------
-          
-          Song Info# : 11
-          Artists : Killa Kellz,DJ 45
-          Name : If I Die Young
-          Preview url : https://p.scdn.co/mp3-preview/638c51873fa8b0fc856425250a81776f0130f359?cid=27a85697470544469f02f1a439d23e78
-          Album : Chiraq Bando Drill 2
-          Popularity : 24
-          -------------------------------------
-          
-          Song Info# : 12
-          Artists : Casper
-          Name : If I Die Young
-          Preview url : https://p.scdn.co/mp3-preview/9a3e44400509de7f60881e00555c7ba99c5d7816?cid=27a85697470544469f02f1a439d23e78
-          Album : Unfinished Business
+          Artists : Aero Chord,Anuka
+          Name : Incomplete
+          Preview url : https://p.scdn.co/mp3-preview/ccf539d5aa2568e9135d2a3017dc9f85e1980071?cid=27a85697470544469f02f1a439d23e78
+          Album : Incomplete
           Popularity : 43
           -------------------------------------
           
-          Song Info# : 13
-          Artists : Boogie Boots
-          Name : If I Die Young
-          Preview url : https://p.scdn.co/mp3-preview/596b503013d48630f01547b28c1c8b40a1a882f5?cid=27a85697470544469f02f1a439d23e78
-          Album : Salute with Song
-          Popularity : 30
+          Song Info# : 10
+          Artists : Bad Religion
+          Name : Incomplete
+          Preview url : https://p.scdn.co/mp3-preview/5f352d51af449af0e32799b66898010577ca1163?cid=27a85697470544469f02f1a439d23e78
+          Album : Stranger Than Fiction
+          Popularity : 40
           -------------------------------------
           
-          Song Info# : 14
-          Artists : Michael Henry & Justin Robinett
-          Name : If I Die Young
-          Preview url : https://p.scdn.co/mp3-preview/945b61d6da80e67fd12d9a2e53f1adb7ed854702?cid=27a85697470544469f02f1a439d23e78
-          Album : If I Die Young
-          Popularity : 28
+          Song Info# : 5
+          Artists : Thousand Foot Krutch
+          Name : Incomplete
+          Preview url : https://p.scdn.co/mp3-preview/fe16b1f1d308b4f39bc283b99a990ae7e745d2dd?cid=27a85697470544469f02f1a439d23e78
+          Album : Exhale
+          Popularity : 44
+          -------------------------------------
+          
+          Song Info# : 12
+          Artists : Backstreet Boys
+          Name : Incomplete
+          Preview url : https://p.scdn.co/mp3-preview/f72b075599e5d2a11d769c43f58301d0284afcea?cid=27a85697470544469f02f1a439d23e78
+          Album : Nickelodeon Kids' Choice Vol. 2
+          Popularity : 31
+          -------------------------------------
+          
+          Song Info# : 11
+          Artists : Aero Chord,Anuka,Muzzy
+          Name : Incomplete (Muzzy Remix)
+          Preview url : https://p.scdn.co/mp3-preview/231c044784d567b37cc01fdc4e68e58c7bc058ae?cid=27a85697470544469f02f1a439d23e78
+          Album : Incomplete (Muzzy Remix)
+          Popularity : 48
+          -------------------------------------
+          
+          Song Info# : 13
+          Artists : Sisqo
+          Name : Incomplete
+          Preview url : null
+          Album : Hits
+          Popularity : 31
           -------------------------------------
           
           Song Info# : 15
-          Artists : Guitar Pop Players
-          Name : If I Die Young
-          Preview url : https://p.scdn.co/mp3-preview/895db1336751c98152bf722b13e7717fa27a20b2?cid=27a85697470544469f02f1a439d23e78
-          Album : Down On the Corner: Guitar Pop
-          Popularity : 21
-          -------------------------------------
-          
-          Song Info# : 17
-          Artists : Country Guitar Players
-          Name : If I Die Young
-          Preview url : https://p.scdn.co/mp3-preview/7998a5d2d4f3004265893b5fe753ae544e6b1e8e?cid=27a85697470544469f02f1a439d23e78
-          Album : Country Guitar: Teardrops On My Guitar
-          Popularity : 17
-          -------------------------------------
-          
-          Song Info# : 18
-          Artists : Delilah
-          Name : If I Die Young
-          Preview url : https://p.scdn.co/mp3-preview/83f8570209d36f9003c60d1e0f960d94dc185f1a?cid=27a85697470544469f02f1a439d23e78
-          Album : The Sing-Off: Season 3: Episode 8 - New Country & Classic Rock
-          Popularity : 13
-          -------------------------------------
-          
-          Song Info# : 19
-          Artists : The O'Neill Brothers Group
-          Name : If I Die Young (Instrumental Version)
-          Preview url : https://p.scdn.co/mp3-preview/7998a5d2d4f3004265893b5fe753ae544e6b1e8e?cid=27a85697470544469f02f1a439d23e78
-          Album : Best Pop Country Songs on Solo Guitar
-          Popularity : 16
+          Artists : OutKast
+          Name : A Life In The of Benjamin Andre (Incomplete)
+          Preview url : https://p.scdn.co/mp3-preview/deea2aa401c9c662ac9751e3891019fb0792ce16?cid=27a85697470544469f02f1a439d23e78
+          Album : Speakerboxxx/The Love Below
+          Popularity : 37
           -------------------------------------
           
           Song Info# : 16
-          Artists : The Band Perry
-          Name : If I Die Young
+          Artists : Assaf,Clara Yates
+          Name : Incomplete
+          Preview url : https://p.scdn.co/mp3-preview/d597443a682c2a1d00ac18b0a1605c2890a11e5e?cid=27a85697470544469f02f1a439d23e78
+          Album : Incomplete
+          Popularity : 37
+          -------------------------------------
+          
+          Song Info# : 14
+          Artists : For All Those Sleeping
+          Name : Incomplete Me
           Preview url : null
-          Album : The Band Perry EP
-          Popularity : 14
+          Album : Incomplete Me
+          Popularity : 33
+          -------------------------------------
+          
+          Song Info# : 17
+          Artists : Disaster Johnson
+          Name : Incomplete
+          Preview url : https://p.scdn.co/mp3-preview/fc76e52af6eddb7d82ad48dd4551fc0fb7b6657e?cid=27a85697470544469f02f1a439d23e78
+          Album : Get the Groove
+          Popularity : 36
+          -------------------------------------
+          
+          Song Info# : 18
+          Artists : Alanis Morissette
+          Name : Incomplete
+          Preview url : https://p.scdn.co/mp3-preview/4ced7cfd43020b1f1782ae787ec6a76f9229eaca?cid=27a85697470544469f02f1a439d23e78
+          Album : Flavors Of Entanglement (Deluxe)
+          Popularity : 36
+          -------------------------------------
+          
+          Song Info# : 19
+          Artists : Within The Ruins
+          Name : Incomplete Harmony
+          Preview url : https://p.scdn.co/mp3-preview/58c3a21bd486d9d62c6a7416125ee1ee67bef802?cid=27a85697470544469f02f1a439d23e78
+          Album : Halfway Human
+          Popularity : 29
           -------------------------------------
           
   Action-Command : movie-this
-  Search-Topic : Man of Steel
+  Search-Topic : Batman Return
   
-        Title : Man of Steel
-        Year : 2013
-        imdbRating : 7.1
-        Rotten Tomatoes : 55% 
-        Country : USA, UK
-        Language : English
-        Plot : Clark Kent, one of the last of an extinguished race disguised as an unremarkable human, is forced to reveal his identity when Earth is invaded by an army of survivors who threaten to bring the planet to the brink of destruction.
-        Actors : Henry Cavill, Amy Adams, Michael Shannon, Diane Lane
-        -------------------------------------
-        
-  Action-Command : From-File[movie-this]
-  Search-Topic : From-File[ Batman Returns]
-  
-        Title : Batman Returns
-        Year : 1992
-        imdbRating : 7.0
-        Rotten Tomatoes : 79% 
-        Country : USA, UK
-        Language : English
-        Plot : When a corrupt businessman and the grotesque Penguin plot to take control of Gotham City, only Batman can stop them, while the Catwoman has her own agenda.
-        Actors : Michael Keaton, Danny DeVito, Michelle Pfeiffer, Christopher Walken
+        Title : Batman: Return of the Caped Crusaders
+        Year : 2016
+        imdbRating : 6.9
+        Rotten Tomatoes : 94% 
+        Country : USA
+        Language : English, German
+        Plot : Batman and Robin of the 1960s live action series are back in action to take down their fiendish foes united once more against them.
+        Actors : Adam West, Burt Ward, Julie Newmar, Jeff Bergman
         -------------------------------------
         
   Action-Command : From-File[spotify-this-song]
   Search-Topic : From-File[I Want it That Way]
   
-          Song Info# : 0
-          Artists : Backstreet Boys
-          Name : I Want It That Way
-          Preview url : https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=27a85697470544469f02f1a439d23e78
-          Album : The Hits--Chapter One
-          Popularity : 79
-          -------------------------------------
-          
-          Song Info# : 3
-          Artists : Manuel Costa
-          Name : I Want It That Way
-          Preview url : https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=27a85697470544469f02f1a439d23e78
-          Album : I Want It That Way
-          Popularity : 46
-          -------------------------------------
-          
           Song Info# : 2
           Artists : Anthem Lights
           Name : I Want It That Way
@@ -584,12 +555,20 @@
           Popularity : 52
           -------------------------------------
           
-          Song Info# : 4
-          Artists : Dynamite Boy
+          Song Info# : 3
+          Artists : Manuel Costa
           Name : I Want It That Way
-          Preview url : null
-          Album : Punk Goes Pop
-          Popularity : 40
+          Preview url : https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=27a85697470544469f02f1a439d23e78
+          Album : I Want It That Way
+          Popularity : 47
+          -------------------------------------
+          
+          Song Info# : 0
+          Artists : Backstreet Boys
+          Name : I Want It That Way
+          Preview url : https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=27a85697470544469f02f1a439d23e78
+          Album : The Hits--Chapter One
+          Popularity : 79
           -------------------------------------
           
           Song Info# : 1
@@ -597,7 +576,15 @@
           Name : I Want It That Way
           Preview url : https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=27a85697470544469f02f1a439d23e78
           Album : Millennium
-          Popularity : 77
+          Popularity : 78
+          -------------------------------------
+          
+          Song Info# : 5
+          Artists : "Weird Al" Yankovic
+          Name : Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+          Preview url : https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=27a85697470544469f02f1a439d23e78
+          Album : Poodle Hat
+          Popularity : 44
           -------------------------------------
           
           Song Info# : 6
@@ -608,12 +595,12 @@
           Popularity : 35
           -------------------------------------
           
-          Song Info# : 5
-          Artists : "Weird Al" Yankovic
-          Name : Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
-          Preview url : https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=27a85697470544469f02f1a439d23e78
-          Album : Poodle Hat
-          Popularity : 44
+          Song Info# : 4
+          Artists : Dynamite Boy
+          Name : I Want It That Way
+          Preview url : null
+          Album : Punk Goes Pop
+          Popularity : 41
           -------------------------------------
           
           Song Info# : 7
@@ -625,27 +612,27 @@
           -------------------------------------
           
           Song Info# : 8
+          Artists : Tyler and Mark
+          Name : I Want It That Way
+          Preview url : https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=27a85697470544469f02f1a439d23e78
+          Album : Beautiful Dreams
+          Popularity : 38
+          -------------------------------------
+          
+          Song Info# : 9
           Artists : Glee Cast
           Name : Bye Bye Bye / I Want It That Way (Glee Cast Version)
           Preview url : https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=27a85697470544469f02f1a439d23e78
           Album : Bye Bye Bye / I Want It That Way (Glee Cast Version)
-          Popularity : 42
+          Popularity : 43
           -------------------------------------
           
-          Song Info# : 9
+          Song Info# : 10
           Artists : Boyce Avenue
           Name : I Want It That Way
           Preview url : https://p.scdn.co/mp3-preview/764f1dcb8c9a9cec099cc361cb388f931bf023d3?cid=27a85697470544469f02f1a439d23e78
           Album : Cover Sessions, Vol. 2
           Popularity : 46
-          -------------------------------------
-          
-          Song Info# : 10
-          Artists : Tyler and Mark
-          Name : I Want It That Way
-          Preview url : https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=27a85697470544469f02f1a439d23e78
-          Album : Beautiful Dreams
-          Popularity : 36
           -------------------------------------
           
           Song Info# : 11
@@ -656,28 +643,20 @@
           Popularity : 32
           -------------------------------------
           
-          Song Info# : 12
-          Artists : "Weird Al" Yankovic
-          Name : Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
-          Preview url : https://p.scdn.co/mp3-preview/5632d8e302d70afaa8f79c962aa4b2032a45b3ef?cid=27a85697470544469f02f1a439d23e78
-          Album : The Essential "Weird Al" Yankovic
-          Popularity : 34
-          -------------------------------------
-          
-          Song Info# : 15
-          Artists : Scott Bradlee's Postmodern Jukebox,Shoshana Bean
-          Name : I Want It That Way
-          Preview url : https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=27a85697470544469f02f1a439d23e78
-          Album : Selfies on Kodachrome
-          Popularity : 33
-          -------------------------------------
-          
           Song Info# : 13
           Artists : Backstreet Boys
           Name : I Want It That Way
           Preview url : https://p.scdn.co/mp3-preview/c9302062adf4f59e60335f30c7ca46b487a267fb?cid=27a85697470544469f02f1a439d23e78
           Album : NOW That's What I Call 90s Pop
-          Popularity : 24
+          Popularity : 25
+          -------------------------------------
+          
+          Song Info# : 12
+          Artists : Scott Bradlee's Postmodern Jukebox,Shoshana Bean
+          Name : I Want It That Way
+          Preview url : https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=27a85697470544469f02f1a439d23e78
+          Album : Selfies on Kodachrome
+          Popularity : 34
           -------------------------------------
           
           Song Info# : 14
@@ -685,15 +664,7 @@
           Name : I Want It That Way
           Preview url : https://p.scdn.co/mp3-preview/33685e005149d5e7d0199a764163ff77f7762e29?cid=27a85697470544469f02f1a439d23e78
           Album : Nu Funk
-          Popularity : 34
-          -------------------------------------
-          
-          Song Info# : 18
-          Artists : Scott Bradlee's Postmodern Jukebox,Shoshana Bean
-          Name : I Want It That Way
-          Preview url : https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=27a85697470544469f02f1a439d23e78
-          Album : PMJ Is For Lovers: The Love Song Collection
-          Popularity : 32
+          Popularity : 35
           -------------------------------------
           
           Song Info# : 17
@@ -701,6 +672,14 @@
           Name : I Want It That Way
           Preview url : https://p.scdn.co/mp3-preview/e777be5446dc3df34abc2eaec241edb5a590976c?cid=27a85697470544469f02f1a439d23e78
           Album : I Want It That Way
+          Popularity : 34
+          -------------------------------------
+          
+          Song Info# : 15
+          Artists : "Weird Al" Yankovic
+          Name : Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+          Preview url : https://p.scdn.co/mp3-preview/5632d8e302d70afaa8f79c962aa4b2032a45b3ef?cid=27a85697470544469f02f1a439d23e78
+          Album : The Essential "Weird Al" Yankovic
           Popularity : 34
           -------------------------------------
           
@@ -712,6 +691,14 @@
           Popularity : 56
           -------------------------------------
           
+          Song Info# : 18
+          Artists : Scott Bradlee's Postmodern Jukebox,Shoshana Bean
+          Name : I Want It That Way
+          Preview url : https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=27a85697470544469f02f1a439d23e78
+          Album : PMJ Is For Lovers: The Love Song Collection
+          Popularity : 33
+          -------------------------------------
+          
           Song Info# : 19
           Artists : Jay Smith
           Name : I Want It That Way
@@ -720,385 +707,3 @@
           Popularity : 38
           -------------------------------------
           
-  Action-Command : concert-this
-  Search-Topic : Carrie Underwood
-  
-            Venue# : 2
-            Name of the venue : CMT Artists of the Year
-            Venue location : Nashville, United States
-            Date of the Event : 10/17/2018 20:10
-            ---------------------------------------------
-           
-            Venue# : 0
-            Name of the venue : American Music Awards 
-            Venue location : Los Angeles, United States
-            Date of the Event : 10/09/2018 19:10
-            ---------------------------------------------
-           
-            Venue# : 3
-            Name of the venue : Grand Ole Opry - Opry Goes Pink
-            Venue location : Nashville, United States
-            Date of the Event : 10/26/2018 19:10
-            ---------------------------------------------
-           
-            Venue# : 4
-            Name of the venue : Grand Ole Opry - Opry Goes Pink 
-            Venue location : Nashville, United States
-            Date of the Event : 10/26/2018 21:10
-            ---------------------------------------------
-           
-            Venue# : 1
-            Name of the venue : Jimmy Kimmel Live! - Watch on ABC
-            Venue location : Los Angeles, United States
-            Date of the Event : 10/09/2018 23:10
-            ---------------------------------------------
-           
-            Venue# : 6
-            Name of the venue : Greensboro Coliseum Complex
-            Venue location : Greensboro, United States
-            Date of the Event : 05/01/2019 19:05
-            ---------------------------------------------
-           
-            Venue# : 7
-            Name of the venue : Legacy Arena at The BJCC
-            Venue location : Birmingham, United States
-            Date of the Event : 05/03/2019 19:05
-            ---------------------------------------------
-           
-            Venue# : 8
-            Name of the venue : Verizon Arena
-            Venue location : North Little Rock, United States
-            Date of the Event : 05/04/2019 19:05
-            ---------------------------------------------
-           
-            Venue# : 5
-            Name of the venue : CMA Awards - Hosting 
-            Venue location : Nashville, United States
-            Date of the Event : 11/14/2018 19:11
-            ---------------------------------------------
-           
-            Venue# : 9
-            Name of the venue : AT&T Center
-            Venue location : San Antonio, United States
-            Date of the Event : 05/06/2019 19:05
-            ---------------------------------------------
-           
-            Venue# : 10
-            Name of the venue : Talking Stick Resort Arena
-            Venue location : Phoenix, United States
-            Date of the Event : 05/09/2019 19:05
-            ---------------------------------------------
-           
-            Venue# : 11
-            Name of the venue : MGM Grand Garden Arena
-            Venue location : Las Vegas, United States
-            Date of the Event : 05/11/2019 00:05
-            ---------------------------------------------
-           
-            Venue# : 12
-            Name of the venue : Save Mart Center
-            Venue location : Fresno, United States
-            Date of the Event : 05/12/2019 19:05
-            ---------------------------------------------
-           
-            Venue# : 13
-            Name of the venue : Golden1 Center
-            Venue location : Sacramento, United States
-            Date of the Event : 05/14/2019 19:05
-            ---------------------------------------------
-           
-            Venue# : 14
-            Name of the venue : Oracle Arena
-            Venue location : Oakland, United States
-            Date of the Event : 05/16/2019 19:05
-            ---------------------------------------------
-           
-            Venue# : 15
-            Name of the venue : Rabobank Arena, Theater and Convention Center
-            Venue location : Bakersfield, United States
-            Date of the Event : 05/18/2019 19:05
-            ---------------------------------------------
-           
-            Venue# : 17
-            Name of the venue : Spokane Arena
-            Venue location : Spokane, United States
-            Date of the Event : 05/22/2019 20:05
-            ---------------------------------------------
-           
-            Venue# : 16
-            Name of the venue : Moda Center
-            Venue location : Portland, United States
-            Date of the Event : 05/21/2019 19:05
-            ---------------------------------------------
-           
-            Venue# : 18
-            Name of the venue : Tacoma Dome
-            Venue location : Tacoma, United States
-            Date of the Event : 05/24/2019 19:05
-            ---------------------------------------------
-           
-            Venue# : 19
-            Name of the venue : Rogers Arena
-            Venue location : Vancouver, Canada
-            Date of the Event : 05/25/2019 19:05
-            ---------------------------------------------
-           
-            Venue# : 20
-            Name of the venue : Rogers Place
-            Venue location : Edmonton, Canada
-            Date of the Event : 05/28/2019 19:05
-            ---------------------------------------------
-           
-            Venue# : 22
-            Name of the venue : Bell MTS Place
-            Venue location : Winnipeg, Canada
-            Date of the Event : 06/02/2019 19:06
-            ---------------------------------------------
-           
-            Venue# : 21
-            Name of the venue : Sasktel Centre
-            Venue location : Saskatoon, Canada
-            Date of the Event : 05/31/2019 19:05
-            ---------------------------------------------
-           
-            Venue# : 23
-            Name of the venue : Scotiabank Arena
-            Venue location : Toronto, Canada
-            Date of the Event : 06/09/2019 19:06
-            ---------------------------------------------
-           
-            Venue# : 24
-            Name of the venue : Canadian Tire Centre
-            Venue location : Ottawa, Canada
-            Date of the Event : 06/10/2019 19:06
-            ---------------------------------------------
-           
-            Venue# : 25
-            Name of the venue : Giant Center
-            Venue location : Hershey, United States
-            Date of the Event : 06/13/2019 19:06
-            ---------------------------------------------
-           
-            Venue# : 26
-            Name of the venue : U.S. Bank Arena
-            Venue location : Cincinnati, United States
-            Date of the Event : 06/15/2019 19:06
-            ---------------------------------------------
-           
-            Venue# : 28
-            Name of the venue : Enterprise Center
-            Venue location : Saint Louis, United States
-            Date of the Event : 06/18/2019 19:06
-            ---------------------------------------------
-           
-            Venue# : 27
-            Name of the venue : Bankers Life Fieldhouse
-            Venue location : Indianapolis, United States
-            Date of the Event : 06/16/2019 19:06
-            ---------------------------------------------
-           
-            Venue# : 29
-            Name of the venue : Fiserv Forum
-            Venue location : Milwaukee, United States
-            Date of the Event : 06/20/2019 19:06
-            ---------------------------------------------
-           
-            Venue# : 31
-            Name of the venue : Pinnacle Bank Arena
-            Venue location : Lincoln, United States
-            Date of the Event : 06/23/2019 19:06
-            ---------------------------------------------
-           
-            Venue# : 30
-            Name of the venue : Target Center
-            Venue location : Minneapolis, United States
-            Date of the Event : 06/21/2019 19:06
-            ---------------------------------------------
-           
-            Venue# : 32
-            Name of the venue : Valley View Casino Center
-            Venue location : San Diego, United States
-            Date of the Event : 09/10/2019 19:09
-            ---------------------------------------------
-           
-            Venue# : 34
-            Name of the venue : Vivint Smart Home Arena
-            Venue location : Salt Lake City, United States
-            Date of the Event : 09/14/2019 19:09
-            ---------------------------------------------
-           
-            Venue# : 33
-            Name of the venue : Staples Center
-            Venue location : Los Angeles, United States
-            Date of the Event : 09/12/2019 19:09
-            ---------------------------------------------
-           
-            Venue# : 36
-            Name of the venue : Intrust Bank Arena
-            Venue location : Wichita, United States
-            Date of the Event : 09/18/2019 20:09
-            ---------------------------------------------
-           
-            Venue# : 35
-            Name of the venue : Pepsi Center
-            Venue location : Denver, United States
-            Date of the Event : 09/16/2019 20:09
-            ---------------------------------------------
-           
-            Venue# : 38
-            Name of the venue : Toyota Center
-            Venue location : Houston, United States
-            Date of the Event : 09/21/2019 20:09
-            ---------------------------------------------
-           
-            Venue# : 37
-            Name of the venue : Sprint Center
-            Venue location : Kansas City, United States
-            Date of the Event : 09/19/2019 19:09
-            ---------------------------------------------
-           
-            Venue# : 39
-            Name of the venue : CAJUNDOME
-            Venue location : Lafayette, United States
-            Date of the Event : 09/22/2019 19:09
-            ---------------------------------------------
-           
-            Venue# : 40
-            Name of the venue : American Airlines Center
-            Venue location : Dallas, United States
-            Date of the Event : 09/24/2019 19:09
-            ---------------------------------------------
-           
-            Venue# : 41
-            Name of the venue : Chesapeake Energy Arena
-            Venue location : Oklahoma City, United States
-            Date of the Event : 09/25/2019 19:09
-            ---------------------------------------------
-           
-            Venue# : 42
-            Name of the venue : Bridgestone Arena
-            Venue location : Nashville, United States
-            Date of the Event : 09/27/2019 19:09
-            ---------------------------------------------
-           
-            Venue# : 43
-            Name of the venue : Colonial Life Arena
-            Venue location : Columbia, United States
-            Date of the Event : 09/29/2019 19:09
-            ---------------------------------------------
-           
-            Venue# : 45
-            Name of the venue : Madison Square Garden
-            Venue location : Button City, United States
-            Date of the Event : 10/02/2019 19:10
-            ---------------------------------------------
-           
-            Venue# : 44
-            Name of the venue : PNC Arena
-            Venue location : Raleigh, United States
-            Date of the Event : 09/30/2019 19:09
-            ---------------------------------------------
-           
-            Venue# : 46
-            Name of the venue : Capital One Arena
-            Venue location : Washington, United States
-            Date of the Event : 10/04/2019 19:10
-            ---------------------------------------------
-           
-            Venue# : 47
-            Name of the venue : Wells Fargo Center
-            Venue location : Philadelphia, United States
-            Date of the Event : 10/05/2019 20:10
-            ---------------------------------------------
-           
-            Venue# : 48
-            Name of the venue : TD Garden
-            Venue location : Boston, United States
-            Date of the Event : 10/10/2019 19:10
-            ---------------------------------------------
-           
-            Venue# : 49
-            Name of the venue : PPG Paints Arena
-            Venue location : Pittsburgh, United States
-            Date of the Event : 10/12/2019 19:10
-            ---------------------------------------------
-           
-            Venue# : 50
-            Name of the venue : KeyBank Center
-            Venue location : Buffalo, United States
-            Date of the Event : 10/13/2019 20:10
-            ---------------------------------------------
-           
-            Venue# : 52
-            Name of the venue : KFC Yum! Center
-            Venue location : Louisville, United States
-            Date of the Event : 10/17/2019 19:10
-            ---------------------------------------------
-           
-            Venue# : 51
-            Name of the venue : Quicken Loans Arena
-            Venue location : Cleveland, United States
-            Date of the Event : 10/16/2019 20:10
-            ---------------------------------------------
-           
-            Venue# : 54
-            Name of the venue : Jacksonville Veterans Memorial Arena
-            Venue location : Jacksonville, United States
-            Date of the Event : 10/20/2019 19:10
-            ---------------------------------------------
-           
-            Venue# : 55
-            Name of the venue : FedExForum
-            Venue location : Memphis, United States
-            Date of the Event : 10/23/2019 19:10
-            ---------------------------------------------
-           
-            Venue# : 53
-            Name of the venue : Philips Arena
-            Venue location : Atlanta, United States
-            Date of the Event : 10/19/2019 19:10
-            ---------------------------------------------
-           
-            Venue# : 56
-            Name of the venue : BOK Center
-            Venue location : Tulsa, United States
-            Date of the Event : 10/24/2019 19:10
-            ---------------------------------------------
-           
-            Venue# : 58
-            Name of the venue : Denny Sanford Premier Center
-            Venue location : Sioux Falls, United States
-            Date of the Event : 10/27/2019 20:10
-            ---------------------------------------------
-           
-            Venue# : 57
-            Name of the venue : Wells Fargo Arena
-            Venue location : Des Moines, United States
-            Date of the Event : 10/26/2019 20:10
-            ---------------------------------------------
-           
-            Venue# : 59
-            Name of the venue : United Center
-            Venue location : Chicago, United States
-            Date of the Event : 10/29/2019 19:10
-            ---------------------------------------------
-           
-            Venue# : 60
-            Name of the venue : Little Caesars Arena
-            Venue location : Detroit, United States
-            Date of the Event : 10/31/2019 19:10
-            ---------------------------------------------
-           
-  Action-Command : From-File[movie-this]
-  Search-Topic : From-File[ 'Man of Steel']
-  
-        Title : Man of Steel
-        Year : 2013
-        imdbRating : 7.1
-        Rotten Tomatoes : 55% 
-        Country : USA, UK
-        Language : English
-        Plot : Clark Kent, one of the last of an extinguished race disguised as an unremarkable human, is forced to reveal his identity when Earth is invaded by an army of survivors who threaten to bring the planet to the brink of destruction.
-        Actors : Henry Cavill, Amy Adams, Michael Shannon, Diane Lane
-        -------------------------------------
-        

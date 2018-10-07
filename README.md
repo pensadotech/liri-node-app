@@ -8,6 +8,13 @@ _by Armando Pensado_
 
 **LIRI Bot** is an application made with NodeJS, and even though is not a server, it offers basic infrastructure to act upon user commands. The program will receive a command and a search-topic as parameters, and base on these, it will retrieve data using particular API and present the results in the Terminal and a log file. The application will retrieve data related with concerts, music, or videos.
 
+## Video Presentations
+
+Introduction videos are available under the **video** folder: 
+
+1. Introduction: ./video/1.LiriBotProjectIntro.mp4
+2. Demo: ./video/2.LiriBotDemo.mp4
+
 ## How does it work
 
 The application is capable to receive the following commands:
@@ -24,7 +31,7 @@ The application is capable to receive the following commands:
 _random.txt_  :  spotify-this-song,"I Want it That Way"
 ```
 
-## How can benefit from this application
+## Who can benefit from this application
 
 This application is beneficial for NodeJS developer, providing a example about programming structures using JavaScript, external API, external modules like ‘**request**’, ’**moment**’, and ‘**fs**’ (File System). It also offer an example from hiding user keys for the APIs, using a ‘**.env**’ file. 
 
