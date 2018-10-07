@@ -10,7 +10,7 @@ _by Armando Pensado_
 
 ## Video Presentations
 
-Introduction videos are available under the **video** folder: 
+Introduction videos are available at:
 
 1. Introduction: ./video/1.LiriBotProjectIntro.mp4
 2. Demo: ./video/2.LiriBotDemo.mp4
