@@ -12,7 +12,7 @@ _by Armando Pensado_
 
 Introduction videos are available at Google Drive, in teh following location:
 
-[Liri Bot Project videos] ( )
+[Liri Bot Project videos](https://drive.google.com/open?id=1ubpUilxybPuVGJScDIXwCyKpIXCsgNsQ )
 
 
 ## How does it work
