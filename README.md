@@ -10,10 +10,10 @@ _by Armando Pensado_
 
 ## Video Presentations
 
-Introduction videos are available at:
+Introduction videos are available at Google Drive, in teh following location:
 
-1. Introduction: ./video/1.LiriBotProjectIntro.mp4
-2. Demo: ./video/2.LiriBotDemo.mp4
+[Liri Bot Project videos] ( )
+
 
 ## How does it work
 
