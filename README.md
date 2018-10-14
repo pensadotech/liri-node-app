@@ -70,7 +70,7 @@ The user can enter in the terminal any of the command indicated below, and the T
 
 For example, it is depicted the command to find “**Carrie Underwood**” concerts.
 
-![Initialization](./docs/2.SampleCommand.png)
+![SampleCommand](./docs/2.SampleCommand.png)
 
 Additional to the output into the terminal, the collected data will be also dumped into the “file.txt” file. The following image shows the file generated and its content.
 
@@ -98,7 +98,7 @@ The following example, depicts the execution of the command “_node liri.js do-
 
 As any other command, the log file will reflect the result of this search.
 
-![DoWhatItSaysExample](./docs/6.DoWhatItSaysLogFile.png)
+![DoWhatItSaysLogFile](./docs/6.DoWhatItSaysLogFile.png)
 
 ## Who maintains and contributes to the project
 
